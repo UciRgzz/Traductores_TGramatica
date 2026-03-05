@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(java -version)",
+      "Bash(winget --version)",
+      "Bash(conda install -c conda-forge bison flex -y)",
+      "Bash(rm ejercicio2.l ejercicio2.y Ejercicio2Visitor.java Ejercicio2BaseVisitor.java Ejercicio2Listener.java Ejercicio2BaseListener.java)",
+      "Bash(rm -f Ejercicio2Visitor.class Ejercicio2BaseVisitor.class Ejercicio2Listener.class Ejercicio2BaseListener.class \"Ejercicio2Parser$DivisionContext.class\" \"Ejercicio2Parser$SumaContext.class\" \"Ejercicio2Parser$MultiplicacionContext.class\" \"Ejercicio2Parser$RestaContext.class\")",
+      "Bash(java -jar antlr4.jar -visitor Ejercicio2.g4)",
+      "Bash(javac -cp \".;antlr4.jar\" *.java)",
+      "Read(//c/Users/ucima/Documents/CURSOS2026/Traductores/gramáticas/$JAVA_HOME/bin/**)",
+      "Bash(echo \"JAVA_HOME=$JAVA_HOME\")"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+# Compiled Java
+*.class
+bin/
+
+# ANTLR4 generated artifacts
+*.interp
+*.tokens
